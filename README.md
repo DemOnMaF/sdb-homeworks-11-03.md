@@ -79,11 +79,10 @@
 
 <details>
 
-![image](img/1e2.png)
+![image](img/4e2.png)
 
-![image](img/2e2.png)
+![image](img/5e2.png)
 
-![image](img/3e2.png)
 
 </details>
 
