@@ -83,6 +83,7 @@
 
 ![image](img/5e2.png)
 
+Файл [haproxy](haproxy.cfg)
 
 </details>
 
