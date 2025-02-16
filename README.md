@@ -22,7 +22,7 @@
 ## Дополнительные ресурсы
 
 При выполнении задания используйте дополнительные ресурсы:
-- [docker-compose elasticsearch + kibana](11-03/docker-compose.yaml);
+- [docker-compose elasticsearch + kibana](https://github.com/netology-code/sdb-homeworks/blob/main/11-03/docker-compose.yaml);
 - [поднимаем elk в docker](https://www.elastic.co/guide/en/elasticsearch/reference/7.17/docker.html);
 - [поднимаем elk в docker с filebeat и docker-логами](https://www.sarulabs.com/post/5/2019-08-12/sending-docker-logs-to-elasticsearch-and-kibana-with-filebeat.html);
 - [конфигурируем logstash](https://www.elastic.co/guide/en/logstash/7.17/configuration.html);
