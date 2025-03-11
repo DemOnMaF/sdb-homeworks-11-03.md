@@ -42,9 +42,8 @@ services:
     volumes:
       - ./logstash.conf:/usr/share/logstash/config/logstash.conf
       - ./logstash.yml:/usr/share/logstash/config/logstash.yml
-      #- /home/vagrant/output.txt:/usr/share/logstash/output.txt
-      - ./nginxlog:/usr/share/logstash/nginx # данный волум прокидываю для трех контейнеров и хоста, чтобы актуальные логи могли считываться
-    command: logstash -f /usr/share/logstash/config/logstash.conf # была добавлена команда, которая запускает логстэш используя проброшенный конфиг
+      - ./nginxlog:/usr/share/logstash/nginx 
+    command: logstash -f /usr/share/logstash/config/logstash.conf 
 #    volumes:
 #      - ./logstash/config:/usr/share/logstash/pipeline
     environment:
