@@ -70,9 +70,8 @@
 ```
 docker compose up -d
 Error response from daemon: error while creating mount source path '/var/lib/docker': mkdir /var/lib/docker: read-only file system
-
-
 ```
+Не понимаю где ошибка. Какие доступы и к каким файлам не хватает?
 ---
 
 ### Задание 4. Filebeat. 
