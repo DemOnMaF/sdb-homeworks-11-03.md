@@ -67,7 +67,12 @@
 Установите и запустите Logstash и Nginx. С помощью Logstash отправьте access-лог Nginx в Elasticsearch. 
 
 *Приведите скриншот интерфейса Kibana, на котором видны логи Nginx.*
+```
+docker compose up -d
+Error response from daemon: error while creating mount source path '/var/lib/docker': mkdir /var/lib/docker: read-only file system
 
+
+```
 ---
 
 ### Задание 4. Filebeat. 
