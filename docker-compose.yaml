@@ -57,7 +57,7 @@ services:
     ports:
       - 80:80
     volumes:
-      - ./nginxlog:/var/log/nginx # данный волум прокидываю для трех контейнеров и хоста, чтобы актуальные логи могли считываться
+      - ./nginxlog:/var/log/nginx 
     restart: always    
 
   beats:
