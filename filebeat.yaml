@@ -1,7 +1,6 @@
 filebeat.inputs:
 - type: container
   paths:
-    #- '/var/log/nginx'
     - '/var/lib/docker/containers/*/*.log'
 
 processors:
