@@ -43,7 +43,7 @@
 *Приведите скриншот команды 'curl -X GET 'localhost:9200/_cluster/health?pretty', сделанной на сервере с установленным Elasticsearch. Где будет виден нестандартный cluster_name*.
 <details>
 
-![image](img/01.png)
+![image](img/001.png)
 </details>
 
 
@@ -56,7 +56,7 @@
 *Приведите скриншот интерфейса Kibana на странице http://<ip вашего сервера>:5601/app/dev_tools#/console, где будет выполнен запрос GET /_cluster/health?pretty*.
 <details>
 
-![image](img/02.png)
+![image](img/002.png)
 </details>
 
 
@@ -67,11 +67,12 @@
 Установите и запустите Logstash и Nginx. С помощью Logstash отправьте access-лог Nginx в Elasticsearch. 
 
 *Приведите скриншот интерфейса Kibana, на котором видны логи Nginx.*
-```
-docker compose up -d
-Error response from daemon: error while creating mount source path '/var/lib/docker': mkdir /var/lib/docker: read-only file system
-```
-Не понимаю где ошибка. Какие доступы и к каким файлам не хватает?
+<details>
+
+![image](img/003.png)
+</details>
+
+
 ---
 
 ### Задание 4. Filebeat. 
@@ -79,6 +80,12 @@ Error response from daemon: error while creating mount source path '/var/lib/doc
 Установите и запустите Filebeat. Переключите поставку логов Nginx с Logstash на Filebeat. 
 
 *Приведите скриншот интерфейса Kibana, на котором видны логи Nginx, которые были отправлены через Filebeat.*
+<details>
+
+![image](img/004.png)
+![image](img/005.png)
+</details>
+
 
 ---
 
